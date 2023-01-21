@@ -18,7 +18,7 @@ char *create_string(char ch, int num) {
 }
 
 main(int argc, char *argv[]) {
-    if (argc == 2) {
+    if (argc == 3) {
     char *str = create_string(argv[1], argv[2]);
     printf("%s\n",str); 
     return 0;
