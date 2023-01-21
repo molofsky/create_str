@@ -9,7 +9,7 @@
 #include <stdlib.h>
 
 char *create_string(char ch, int num) {
-    char *new_str = malloc(num + 1);
+    char *new_str = malloc(sizeof(char*) * (num + 1));
     for (int i = 0; i < num; i++) {
         new_str[i] = ch;
     }
